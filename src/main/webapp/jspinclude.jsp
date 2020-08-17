@@ -16,14 +16,14 @@
 
 <jsp:include page="header.html"/>
 <ul>
-    <li><p>Новости ПШ</p></li>
-    <li><p>Как правильно сделать заказ</p></li>
+    <li>Новости ПШ</li>
+    <li>Как правильно сделать заказ</li>
     Текс под как правильно сделать <a href="/JSPMetanit_war_exploded/testCalc.jsp"> заказ.</a>
-    <li><p>Гелиевые шары</p></li>
+    <li>Гелиевые шары</li>
 </ul>
 
-<jsp:include page="declaration.jsp"/>
-<img src="/JSPMetanit_war_exploded/pic50.jpg" alt="Скриншот кода" />
+<%--<jsp:include page="declaration.jsp"/>--%>
+<img src="/JSPMetanit_war_exploded/pic51.jpg" alt="Скриншот кода" />
 <jsp:include page="footer.jsp"/>
 
 </body>
