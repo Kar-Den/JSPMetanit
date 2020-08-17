@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--    <meta charset="UTF-8">-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Полная форма</title>
+</head>
+<body>
+<form action="postuserFullForm.jsp" method="POST">
+
+    Имя: <input name="username" />
+    <br><br>
+    Пол: <input type="radio" name="gender" value="женский" checked />Женский
+    <input type="radio" name="gender" value="мужской" />Мужской
+    <input type="radio" name="gender" value="Средний" />М/Ж
+
+    <br><br>
+    Страна: <select name="country">
+    <option>Белоруссия</option>
+    <option>Iran</option>
+    <option>Turkey</option>
+    <option>China</option>
+    <option>Germany</option>
+
+</select>
+    <br><br>
+    Курс:
+    <input type="checkbox" name="courses" value="JavaS_Edition" check />Java StandartEdition
+    <input type="checkbox" name="courses" value="ДжаваFX" check />Java FX
+    <input type="checkbox" name="courses" value="JavaEE" checked />Java EE
+    <input type="checkbox" name="courses" value="Иван Джава" checked />Java СемёнЭдишин
+    <br><br>
+    <input type="submit" value="Отправить" />
+</form>
+
+</body>
+</html>
