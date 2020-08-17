@@ -14,5 +14,6 @@
 <p>HELLO</p>
 <h3><%= header %></h3>
 <p> Сегодня <%= new java.util.Date()%></p>
+<jsp:include page="homebuton.html"/>
 </body>
 </html>
